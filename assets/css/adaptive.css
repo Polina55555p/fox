@@ -1,0 +1,194 @@
+@media (min-width: 2530px) {
+	.about {
+    margin-bottom: 20rem;
+}
+}
+@media (max-width: 1700px) {
+	.title {
+		font-size: 3.6rem;
+	}
+	.eye-tracking-image {
+		width: 60%;
+	}
+	.eye-tracking-image img {
+		width: 100%;
+	}
+
+
+}
+@media (max-width: 1500px) {
+
+
+	/*MAIN*/
+	h1 {
+		font-size: 3.6rem;
+	}
+	.usual-text {
+		font-size: 1.125rem;
+	}
+	.navbar {
+    margin: 0;
+	}
+
+	.trigger-image img{
+		height: 90%;
+		left: 2.6rem;
+	}
+	.bg {
+		max-height: 50rem;
+	}
+	.main .btn {
+    font-size: 1.125rem;
+    padding: 1.675rem 6.625rem;
+    margin-bottom: 1rem;
+
+	}
+	.main .row {
+    margin-top: 5.125rem;
+    padding-left: 3.875rem;
+    
+	}
+
+	.text-block {
+    padding: 1rem 0 0 1rem;
+	}
+	.eye-tracking-image {
+		width: 50%;
+	}
+
+	.partners-item {
+    padding: 1.375rem 1.125rem;
+    margin: 1rem;
+    border-radius: 1rem;
+	}
+
+	.partners-item img {
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 1399px) {
+	.slider .slick-track{
+		display: flex;
+		justify-content: center;
+	}
+	.slider .slick-slide:not(.slick-active) {
+    transform: scale(0%);
+    transition: 1.2s transform linear;
+	}
+	.project .usual-text {
+    	margin-bottom: 2rem;
+	}
+	h1 {
+		padding-bottom: 1.5rem;
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+
+	/*MAIN*/
+	.nav-link.active::after {
+	    display: none;
+	}
+	.navbar-collapse {
+     top: 95%;
+     left: 0;
+    background: var(--my-dark-blue-gradient);
+    
+	}
+	.nav-link {
+		font-size: 1.625rem;
+		padding: 1rem 0;
+	}
+	.navbar-brand img {
+		width: 100%;
+	}
+	.navbar-brand {
+		width: 70%;
+		max-width: 15.875rem;
+	}
+	.main .row {
+    margin-top: 3.125rem;
+    padding-left: 2rem;
+    
+	}
+	.main .usual-text {
+		max-width: 40rem;
+	}
+	section {
+    margin-bottom: 3.5rem;
+	}
+	.about {
+    margin-top: 4.125rem;
+	}
+	
+
+	/*ABOUT*/
+
+	.text-block p {
+    padding-bottom: 0rem;
+    font-size: 1.5rem;
+	}
+
+
+	.project-text {
+    padding-top: 4rem;
+	}
+	.slider__cover {
+    margin: 1.625rem 0 4rem;
+    width: 100%;
+	}
+	.slider__cover img {
+		width: 100%;
+	}
+	.eye-tracking-image {
+		width: 100%;
+	}
+	.stage-items {
+    margin: 0 1.375rem;
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+	.about-card {
+    margin-top: 2rem;
+	}
+	.title {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+	}
+	.about-image {
+		display: none;
+	}
+	.input {
+    width: 100%;
+	}
+
+	.stage-items {
+    margin: 0;
+
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 2.325rem;
+		padding-bottom: 2rem;
+	}
+	.main .btn {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0;
+
+	}
+	body {
+    font-size: 1.125rem;
+	}
+
+
+}
